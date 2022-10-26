@@ -1,0 +1,23 @@
+@font-face{
+	font-family:fuente-gruesa;
+	src:url(SourceSansPro-Regular.ttf);
+}
+
+@font-face{
+	font-family:gamer1;
+	src:url(gamer1.ttf);
+}
+
+@font-face{
+	font-family:gamer;
+	src:url(DarkMage.ttf);
+}
+@font-face{
+	font-family:tituloss;
+	src:url(titulos.otf);
+}
+
+@font-face{
+	font-family:casual;
+	src:url(juanM.ttf);
+}

@@ -1,0 +1,1127 @@
+@import url('fuentes/fuentes.css');
+body{
+  background-size: contain;
+     background-image:url('pantallainicoacticdad.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    max-height: 619px;
+}
+.padrearriba{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.titulocp1{
+   
+}
+.titulocp1 p{
+    /*background-image: linear-gradient(180deg, #d94de9 0, #b437df 25%, #871ad1 50%, #5000c3 75%, #0000b9 100%);*/
+    background-image: linear-gradient(195deg, #ff41b6 0, #ff35c1 12.5%, #ea2acb 25%, #d023d5 37.5%, #af22de 50%, #8428e7 62.5%, #4132ef 75%, #003bf6 87.5%, #0042fc 100%);
+    display: inline-block;
+    font-family: gamer1;
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+    color:#fff;
+    box-shadow: 5px 5px 1px 1px  #fff;
+}
+.Activdad{
+    text-decoration: none;
+    Background: #8000FF;
+    color:#fff;
+    padding: 17px;
+    border: solid 5px #FFF;
+     border-radius: 10px;
+    font-family: gamer1;
+    font-size: 20px;
+     transition: all 0.3s;
+    border: solid  3px;
+      
+}
+.Activdad:hover{
+    background: #fff;
+    color:#FF00BF;
+    border: solid 5px #E29CE2;
+    padding: 8px;
+    box-shadow: 2px 2px 2px #fff;
+}
+.padreActividadBtn{
+    position: relative;
+    left: 30px;
+}
+.lista{
+     position: absolute;
+    width: 40px;
+    left: -400px;
+    top: -32px;
+    transition: all 0.5s;
+}
+.padreActividadBtn:hover > .lista{
+    left:-5px;
+}
+/*-------------------------fin de btnactivdad................*/
+.btnAyuda{
+     position: relative;
+    right: 30px;
+    margin-top: 10px;
+}
+
+.Ayuda{
+    text-decoration: none;
+    Background: #8000FF;
+    color:#fff;
+    padding: 17px;
+    border: solid 3px #FFF;
+    border-radius: 10px;
+      font-family: gamer1;
+    font-size: 20px;
+     transition: all 0.3s;
+    
+}
+.imgayuda{
+     position: absolute;
+    width: 40px;
+    left: -4000px;
+    top: -32px;
+    transition: all 0.5s;
+}
+.Ayuda:hover{
+    background: #fff;
+    color:#FF00BF;
+    border: solid 5px #E29CE2;
+    padding: 8px;
+    box-shadow: 2px 2px 2px #fff;
+   
+}
+.btnAyuda:hover > .imgayuda{
+       left:-5px;
+}
+/*-----------fin boton-------------*/
+/*-----------fin boton-------------*/
+.btnMenu{
+    position: absolute;
+    bottom: 40px;
+    left:30px;
+}
+.Menu{
+     text-decoration: none;
+    Background: #8000FF;
+    color:#fff;
+    padding: 17px;
+    border: solid 3px #FFF;
+    
+    border-radius: 10px;
+    font-family: gamer1;
+    font-size: 18px;
+     transition: all 0.3s;
+      
+    
+}
+.menuimg{
+     position: absolute;
+    width: 80px;
+    right: 800px;
+    top: -30px;
+    transition: all 0.5s;
+}
+.Menu:hover{
+    background: #fff;
+    color:#FF00BF;
+    border: solid 5px #E29CE2;
+    padding: 8px;
+    box-shadow: 2px 2px 2px #fff;
+}
+.btnMenu:hover>.menuimg{
+     right:-75px;
+}
+/*--------------------*/
+/*-----------fin boton-------------*/
+.btnMenu{
+    position: absolute;
+    bottom: 40px;
+    left:30px;
+}
+.Menu{
+     text-decoration: none;
+    Background: #8000FF;
+    color:#fff;
+    padding: 17px;
+    border: solid 3px #FFF;
+    
+    border-radius: 10px;
+    font-family: gamer1;
+    font-size: 18px;
+     transition: all 0.3s;
+      
+    
+}
+.menuimg{
+     position: absolute;
+    width: 80px;
+    right: 800px;
+    top: -30px;
+    transition: all 0.5s;
+}
+.Menu:hover{
+    background: #fff;
+    color:#FF00BF;
+    border: solid 5px #E29CE2;
+    padding: 8px;
+    box-shadow: 2px 2px 2px #fff;
+}
+.btnMenu:hover>.menuimg{
+     right:-75px;
+}
+/*--------------------------------------*/
+.PadreActividad1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.clicActovodad{
+    position: relative;
+    width: 300px;
+}
+.clicActovodad{
+    cursor: pointer;
+}
+.clicActovodad a{
+    width: 100%;
+    height:100%;
+    position: absolute;
+   
+    z-index: 10;
+}
+
+.clicActovodad img{
+  width:100%;
+    transition: all 0.5s;
+}
+.clicActovodad:hover>img{
+    padding:5px;
+}
+/*barra----------------------------*/
+.barrapadre{
+    display: flex;
+    margin-top: 20px;
+    border: #fff solid 4px;
+    border-radius: 5px;
+    position: relative;
+}
+.barradeprogreso{
+    background: #13E735;
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    transition:all 1s;
+}
+.btnactividad1{
+   
+    color: #13E735;
+    background: #13E735;
+}
+.btnactividad2{
+   opacity: 0.5;
+    color: #fff;
+}
+.btnactividad3{
+   opacity: 0.5;
+    color: #fff;
+}
+.btn{
+  text-decoration: none;  
+    padding: 10px;
+    background: #13E735;    
+    margin: 0px;
+    font-family:tituloss; 
+}
+
+
+/*---------------incrsutar video estilos-----------------*/
+/*video.-----------------------------*/
+.Padrevideo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    background: #000;
+    width: 100%;
+	height:100vh;
+    background:rgba(0,0,0,1);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden;
+}
+.hijovideo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Cvideo{
+    width: 100%;
+    
+}
+.iniciarverdad{
+    position: absolute;
+    top: 40%;
+    transition: all 0.5s;
+    color:#ffffff;
+   font-family: gamer1;
+    font-size:6vw;
+    background: #2ECC71;
+    width: 50%;
+    text-align: center;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px;
+}
+.iniciarverdad:hover{
+    cursor: pointer;
+}
+.CerrarV{
+    position: absolute;
+    width: 70px;
+    top: 100px;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+.CerrarV:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform:rotate(90deg)
+}
+
+
+/*certificado-----------------------------*/
+
+.padreCertificado{
+     position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    width: 100%;
+	height:100vh;    
+    background:rgba(0,0,0,0.4);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    overflow: hidden;
+    top: -3000px;
+    
+    
+}
+.CertificadoHijo{
+     width: 70%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    
+}
+
+.imgCertificado{
+    width: 70%;
+    margin: auto;
+}
+.NombreEstudiante{
+    position: absolute;
+    top: 47%;
+    font-family: tituloss;
+}
+.Guardar{
+    position: absolute;
+     background-image: linear-gradient(225deg, #ff73ff 0, #ff6afc 16.67%, #d05ee7 33.33%, #9d50cc 50%, #6d41ae 66.67%, #413493 83.33%, #0e287b 100%);
+    color: #ffffff;
+    font-family: tituloss;
+    padding: 0px 20px;
+    font-size: calc(1em + 1vw);
+    border-radius: 10px;
+    text-align: center;
+   bottom: -65px;
+    border: 5px solid #ffffff;
+
+    
+}
+.cajaCertificado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    
+}
+.CodigoSecreto{
+    position: absolute;
+    top: 47%;
+    right: 30%;
+    font-family: tituloss;
+    opacity: 0.2;
+}
+
+/*------formulario Certificado--------*/
+
+.FormularioCertificado{
+     position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    width: 100%;
+	height:100vh;    
+    background:rgba(0,0,0,0.4);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    overflow: hidden;
+    
+}
+.FormularioHijo{
+    width: 40%;
+    height: 60%;
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 50px;
+    
+}
+.infoCertificado{
+   font-family: tituloss;
+   font-size: calc(1em + 1vw);
+    text-align: justify;
+    padding: 10px;
+background-image: radial-gradient(circle at 90.56% 107.92%, #ce00ff 0, #8e07ff 25%, #3e0ced 50%, #000ec9 75%, #0010a7 100%);
+    color: #ffffff;
+    box-shadow: 0px 3px 3px #000000;
+}
+.NombreCertificado{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #000000;
+    border:5px solid #7D00D3;
+    width: 50%;
+}
+.EnviarFormulario{
+    background-image: linear-gradient(225deg, #ff73ff 0, #ff6afc 16.67%, #d05ee7 33.33%, #9d50cc 50%, #6d41ae 66.67%, #413493 83.33%, #0e287b 100%);
+    color: #ffffff;
+    font-family: tituloss;
+    padding: 0px 20px;
+    font-size: calc(1em + 1vw);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/*adaptable chek*/
+
+@media (min-width:150px)and (max-width:350px){
+    /*--------------------video----------------*/
+    
+   .Cvideo{
+    width:720px;
+    height: 405px;
+    transform:rotate(90deg);
+     
+       
+}
+    .CerrarV{
+    position: absolute;
+    width: 30px;
+    top: 45%;
+    right:5px;
+    opacity: 0.6;
+    transition: all 0.5s;
+
+}
+.CerrarV:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform:rotate(90deg)
+}
+    
+    .padrearriba{
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    .titulocp1 p{
+        font-size: 13px;
+        text-align: center;
+        padding: 4px;
+        
+    }
+    .titulocp1 {
+        position: relative;
+        top: 70px;
+       
+    }
+    .Activdad{
+        font-size: 12px;
+    }
+    .Ayuda{
+        font-size: 12px;
+    }
+    .btnAyuda{
+     
+    right: 5px;
+   } 
+    .padreActividadBtn{
+        left: 5px;
+    }
+    .padreSupremoSubCp1{
+        margin-top: 80px;
+        width: 90%;
+        height: 55%;
+    }
+    .atras{
+        width: 12%;
+        top:44%;
+        left: -6%;
+        }
+    .adelante{
+        width: 12%;
+        right:-6%;
+        top:44%;
+          }
+    .lista{       
+        width: 28px;
+        left: -400px;
+        top: -22px;
+            }
+    .imgayuda{
+     
+       width: 28px;
+       left: -8000px;
+       top: -22px;
+    
+     }
+    .Menu{
+        font-size: 15px;
+        
+    }
+    .menuimg{
+        width: 70px;
+    }
+    .btnMenu{
+        left:5px;
+     }
+    .clicActovodad{
+    position: relative;
+    width: 200px;
+}
+      .btn{
+  font-size: 13px;
+}
+    
+     /*certificado-----------------------------*/
+
+
+.CertificadoHijo{
+     width: 100%;
+    height: 80%;
+       
+}
+
+.imgCertificado{
+    width: 90%;
+    margin: auto;
+}
+.NombreEstudiante{
+    top: 47%;
+    font-size: 30px;
+}
+.Guardar{
+    bottom:100;
+    border: 3px solid #ffffff;
+
+    
+}
+.CodigoSecreto{
+    top: 47%;
+    right: 30%;
+    font-family: tituloss;
+    opacity: 0.2;
+   
+}
+
+/*------formulario Certificado--------*/
+
+
+.FormularioHijo{
+    width: 90%;
+    height: 40%;
+      
+}
+
+.NombreCertificado{
+      width: 80%;
+    }
+.EnviarFormulario{
+     box-shadow: 4px 4px 4px #CA8FF3;
+}
+    
+    
+}
+@media (min-width:350px)and (max-width:450px){
+    /*--------------------video----------------*/
+    
+   .Cvideo{
+    width:720px;
+    height: 405px;
+    transform:rotate(90deg);
+     
+       
+}
+    .CerrarV{
+    position: absolute;
+    width: 30px;
+    top: 45%;
+    right:5px;
+    opacity: 0.6;
+    transition: all 0.5s;
+
+}
+.CerrarV:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform:rotate(90deg)
+}
+    
+     .padrearriba{
+        margin-top: 10px;
+         margin-bottom: 70px;
+    }
+    .titulocp1 p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .titulocp1 {
+        position: relative;
+        top: 70px;
+    }
+    .Activdad{
+        font-size: 12px;
+    }
+    .Ayuda{
+        font-size: 12px;
+    }
+    .btnAyuda{
+     
+    right: 5px;
+   } 
+    .padreActividadBtn{
+        left: 5px;
+    }
+    .padreSupremoSubCp1{
+        margin-top: 80px;
+        width: 90%;
+        height: 55%;
+    }
+    .atras{
+        width: 10%;
+        top:45%;
+        left: -5%;
+        }
+    .adelante{
+        width: 10%;
+        right:-5%;
+        top:45%;
+          }
+    .lista{       
+        width: 28px;
+        left: -400px;
+        top: -22px;
+            }
+    .imgayuda{
+     
+       width: 28px;
+       left: -8000px;
+       top: -22px;
+    
+     }
+    .Menu{
+        font-size: 15px;
+    }
+    .menuimg{
+        width: 70px;
+    }
+ /*certificado-----------------------------*/
+
+
+.CertificadoHijo{
+     width: 100%;
+    height: 80%;
+       
+}
+
+.imgCertificado{
+    width: 90%;
+    margin: auto;
+}
+.NombreEstudiante{
+    top: 47%;
+    font-size: 30px;
+}
+.Guardar{
+    bottom:100;
+    border: 3px solid #ffffff;
+
+    
+}
+.CodigoSecreto{
+    top: 47%;
+    right: 30%;
+    font-family: tituloss;
+    opacity: 0.2;
+   
+}
+
+/*------formulario Certificado--------*/
+
+
+.FormularioHijo{
+    width: 90%;
+    height: 40%;
+      
+}
+
+.NombreCertificado{
+      width: 80%;
+    }
+.EnviarFormulario{
+     box-shadow: 4px 4px 4px #CA8FF3;
+}
+
+
+
+}
+@media (min-width:450px)and (max-width:600px){
+    /*certificado-----------------------------*/
+
+
+.CertificadoHijo{
+     width: 100%;
+    height: 80%;
+       
+}
+
+.imgCertificado{
+    width: 90%;
+    margin: auto;
+}
+.NombreEstudiante{
+    top: 47%;
+    font-size: 30px;
+}
+.Guardar{
+    bottom:100;
+    border: 3px solid #ffffff;
+
+    
+}
+.CodigoSecreto{
+    top: 47%;
+    right: 30%;
+    font-family: tituloss;
+    opacity: 0.2;
+   
+}
+
+/*------formulario Certificado--------*/
+
+
+.FormularioHijo{
+    width: 90%;
+    height: 40%;
+      
+}
+
+.NombreCertificado{
+      width: 80%;
+    }
+.EnviarFormulario{
+     box-shadow: 4px 4px 4px #CA8FF3;
+}
+}
+@media (min-width:600px)and (max-width:900px){
+    
+
+ .padrearriba{
+        margin-top: 0px;
+     margin-bottom: 50px;
+    }
+    .titulocp1 p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .titulocp1 {
+        position: relative;
+        top: 70px;
+    }
+    .Activdad{
+        font-size: 15px;
+    }
+    .Ayuda{
+        font-size: 15px;
+    }
+    .btnAyuda{
+     
+    right: 5px;
+   } 
+    .padreActividadBtn{
+        left: 5px;
+    }
+    .padreSupremoSubCp1{
+        margin-top: 60px;
+        width: 90%;
+        height: 60%;
+    }
+    
+    .lista{       
+        width: 28px;
+        left: -400px;
+        top: -22px;
+            }
+    .imgayuda{
+     
+       width: 28px;
+       left: 800px;
+       top: -22px;
+    
+     }
+    .Menu{
+        font-size: 15px;
+    }
+    .menuimg{
+        width: 70px;
+    }
+}
+@media (min-width:900px)and (max-width:1350px){
+    .titulocp1 p{
+        font-size: 23px;
+        text-align: center;
+        
+    }
+    
+    .clicActovodad{
+        width: 30%;
+    }
+    .iniciarverdad{
+    position: absolute;
+    top: 40%;
+    transition: all 0.5s;
+    color:#ffffff;
+   font-family: gamer1;
+     font-size: calc(1em + 1vw);
+    background: #2ECC71;
+    width: 30%;
+    text-align: center;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 30px 10px;
+}
+    /*certificado*/
+    .CodigoSecreto{
+    position: absolute;
+    top: 49%;
+    right: 30%;
+    font-family: tituloss;
+    opacity: 0.2;
+    padding: 0px;
+    margin: 0px;
+}
+    .NombreEstudiante{
+    position: absolute;
+    top: 46%;
+    font-family: tituloss;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+    .CertificadoHijo{
+   
+    
+}
+
+.imgCertificado{
+    width: 80%;
+   
+}
+    .Guardar{
+        bottom: -85px;
+    }    
+    
+    
+    
+}
+@media (min-width:1350px)and (max-width:1900px){
+    .titulocp1 p{
+        font-size: 23px;
+        text-align: center;
+    
+    }
+    
+    .clicActovodad{
+        width: 30%;
+    }
+    .iniciarverdad{
+    position: absolute;
+    top: 40%;
+    transition: all 0.5s;
+    color:#ffffff;
+   font-family: gamer1;
+     font-size: calc(1em + 1vw);
+    background: #2ECC71;
+    width: 30%;
+    text-align: center;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 30px 10px;
+}
+    
+    /*certificado*/
+    .CodigoSecreto{
+    position: absolute;
+    top: 49%;
+    right: 30%;
+    font-family: tituloss;
+    opacity: 0.2;
+    padding: 0px;
+    margin: 0px;
+}
+    .NombreEstudiante{
+    position: absolute;
+    top: 47%;
+    font-family: tituloss;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+    .CertificadoHijo{
+   
+    
+}
+
+.imgCertificado{
+    width: 80%;
+   
+}
+    .Guardar{
+        bottom: -85px;
+    }    
+    
+}
+
+@media (min-height:500px)and (max-height:600px){
+    /*alto de celular pequeño pero programar  de (540px X 630px) el estandar es de 570px a 580 */
+    .Guardar{
+        bottom: -1px;
+    } 
+    .FormularioHijo{
+    width: 90%;
+    height: 50%;
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 50px;
+    
+}
+   .clicActovodad{
+    position: relative;
+    width: 220px;
+}
+
+}
+@media (min-height:1500px)and (max-height:3800px){
+    .padrearriba{
+        display: flex;
+        flex-flow:column nowrap;
+        justify-content: center;
+        
+    }
+    .titulocp1{
+        left: 15%;
+        
+        width: 70%;
+    }
+    .titulocp1 p{
+       
+        width: 100%;
+        font-size: 50px;
+        text-align: center;
+        
+    }
+    /*certificado-----------------------------*/
+    
+    
+    /*--------------imagen del centro parpadente-------*/
+    .PadreActividad1{
+       
+        height: 200%;
+        
+    }
+    .clicActovodad{
+        width: 100%;
+    }
+    .tiburon{
+        width: 100%;
+        
+    }
+   
+
+.padreCertificado{
+     position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    width: 100%;
+	height:100vh;    
+    background:rgba(0,0,0,0.4);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    overflow: hidden;
+    top: -3000px;
+    
+    
+}
+.CertificadoHijo{
+     width: 90%;
+    height: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+   
+}
+
+.imgCertificado{
+    width: 90%;
+    margin: auto;
+}
+.NombreEstudiante{
+    position: absolute;
+    top: 47%;
+    font-family: tituloss;
+}
+.Guardar{
+    position: absolute;
+     background-image: linear-gradient(225deg, #ff73ff 0, #ff6afc 16.67%, #d05ee7 33.33%, #9d50cc 50%, #6d41ae 66.67%, #413493 83.33%, #0e287b 100%);
+    color: #ffffff;
+    font-family: tituloss;
+    padding: 10px 20px;
+    font-size:50px;
+    border-radius: 10px;
+    text-align: center;
+   bottom: -65px;
+    border: 5px solid #ffffff;
+    width: 40%;
+
+    
+}
+.cajaCertificado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    
+}
+.CodigoSecreto{
+    position: absolute;
+    top: 47%;
+    right: 30%;
+    font-family: tituloss;
+    opacity: 0.2;
+}
+
+/*------formulario Certificado--------*/
+
+.FormularioCertificado{
+     position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    width: 100%;
+	height:100vh;    
+    background:rgba(0,0,0,0.4);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    overflow: hidden;
+    
+}
+.FormularioHijo{
+    width: 90%;
+    height: 30%;
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 50px;
+    
+}
+.infoCertificado{
+   font-family: tituloss;
+   font-size: 50px;
+    text-align: justify;
+    padding: 10px;
+background-image: radial-gradient(circle at 90.56% 107.92%, #ce00ff 0, #8e07ff 25%, #3e0ced 50%, #000ec9 75%, #0010a7 100%);
+    color: #ffffff;
+    box-shadow: 0px 3px 3px #000000;
+}
+.NombreCertificado{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #000000;
+    border:5px solid #7D00D3;
+    width: 80%;
+    height: 100px;
+    font-size: 38px;
+}
+.EnviarFormulario{
+    background-image: linear-gradient(225deg, #ff73ff 0, #ff6afc 16.67%, #d05ee7 33.33%, #9d50cc 50%, #6d41ae 66.67%, #413493 83.33%, #0e287b 100%);
+    color: #ffffff;
+    font-family: tituloss;
+    padding: 0px 20px;
+    font-size: 70px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+}
